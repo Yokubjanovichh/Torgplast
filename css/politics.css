@@ -155,7 +155,11 @@ html {
   text-transform: lowercase;
 }
 
-/*  */
+/* main */
+
+main {
+  margin-bottom: 12rem;
+}
 
 .policy_title {
   width: 100%;
@@ -365,6 +369,10 @@ html {
   .item_right_item:nth-child(1) {
     margin-bottom: 2rem;
   }
+
+  main {
+    margin-bottom: 10.4rem;
+  }
 }
 
 @media only screen and (max-width: 1024px) {
@@ -470,6 +478,10 @@ html {
 
   .policy_body {
     gap: 4rem;
+  }
+
+  main {
+    margin-bottom: 8.8rem;
   }
 }
 
